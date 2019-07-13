@@ -10,13 +10,12 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
-    if (isset($_POST["name"]) || !empty($_POST["name"])) {
+    if (isset($_POST["name"])) {
         $name = $_POST["name"];
     } else {
         http_response_code(501);
         return;
     }
-
 
 
     if (isset($_POST["family"]) || !empty($_POST["family"])) {
