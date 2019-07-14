@@ -36,14 +36,13 @@ $APPLICATION->SetTitle("");
 
         <label for="activity">Ваш род деятельности?
             <select name="activity" id="activity" style="width: 200px">
-                <option value="Студент">Студент</option>
-                <option value="Служащий">Служащий</option>
-                <option value="Рабочий">Рабочий</option>
-                <option value="Домохозяйка">Домохозяйка</option>
-                <option value="Пенсионер">Пенсионер</option>
-                <option value="Руководитель">Руководитель</option>
-                <option value="Пенсионер">Пенсионер</option>
-                <option value="Ничем">Ничем</option>
+                <option value="1">Студент</option>
+                <option value="2">Служащий</option>
+                <option value="3">Рабочий</option>
+                <option value="7">Домохозяйка</option>
+                <option value="5">Пенсионер</option>
+                <option value="4">Руководитель</option>
+                <option value="8">Ничем</option>
             </select>
         </label><br>
 
