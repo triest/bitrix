@@ -20,11 +20,11 @@ $APPLICATION->SetTitle("");
 
         </div>
         <b> Пол:</b> <br>
-      <select name="sex" id="sex">
-          <option>Мужской</option>
-          <option>Женский</option>
-      </select>
-        
+        <select name="sex" id="sex">
+            <option>Мужской</option>
+            <option>Женский</option>
+        </select>
+
         <br>
         <label for="age">Сколько вам лет?
             <select id="age" name="age" style="width: 200px">
@@ -34,16 +34,16 @@ $APPLICATION->SetTitle("");
             </select>
         </label><br>
 
-        <label for="activity">Ваш род деятельности?
-            <select name="activity" id="activity" style="width: 200px">
-                <option value="1">Студент</option>
-                <option value="2">Служащий</option>
-                <option value="3">Рабочий</option>
-                <option value="7">Домохозяйка</option>
-                <option value="5">Пенсионер</option>
-                <option value="4">Руководитель</option>
-                <option value="8">Ничем</option>
-            </select>
+        <label>Ваш род деятельности? <BR>
+
+            <input type="checkbox" name="activity"  value="1"/>Студент <br>
+            <input type="checkbox" name="activity" value="2"/>Служащий <br>
+            <input type="checkbox" name="activity" value="3"/>Рабочий<br>
+
+            <input type="checkbox" name="activity" value="5"/>Пенсионер<br>
+            <input type="checkbox" name="activity" value="4"/>Руководитель<br>
+            <input type="checkbox" name="activity" value="5"/>Ничем
+
         </label><br>
 
 
